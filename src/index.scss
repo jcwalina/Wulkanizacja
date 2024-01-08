@@ -55,26 +55,40 @@ code {
 
 
 }
-.icon{
+
+.expand{
   transition: transform 0.3s ease-in-out;
-  :hover {
+  &:hover {
     transform: scale(1.2);
   }
 }
 .header{
-  background: url("./imgs/background.png") center/cover no-repeat;
+  position: relative;
+  background: url("imgs/background.jpg") center/cover no-repeat;
   height: 80vh;
+
+  &::before {
+    content: ""; /* Required for the pseudo-element to generate */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.71); /* Adjust the alpha channel (last value) for darkness */
+    z-index: 1; /* Ensure the overlay is behind other content */
+  }
+
   .titel{
     color: white;
     font-size: 90px;
-    //z-index: 1;
+    z-index: 2;
   }
 
   .subtitel{
     color: $orange;
     font-size: 30px;
     text-align: center;
-    //z-index: 1;
+    z-index: 2;
   }
 }
 

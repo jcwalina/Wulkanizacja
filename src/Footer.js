@@ -15,7 +15,7 @@ const Footer = () => {
                     <Col className="center">
                         <Col  md={6}>
                             <h5>Kontakt</h5>
-                            <p>Email: kontakt@example.com</p>
+                            <p>Email: zbyszek175@vp.pl</p>
                             <p>Telefon: +48 602 467 698</p>
                             <p>Adres: Aleja Piłsudskiego 60, <br/> 18-400 Łomża</p>
                         </Col>
