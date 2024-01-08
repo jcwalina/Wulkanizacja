@@ -3,21 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faPhone, faLocationDot, faUser, faClock, faUsers} from '@fortawesome/free-solid-svg-icons';
 import logo from "./imgs/logo.png"
 
-const Navbar = ({ mapRef,aboutUsRef }) => {
+const Navbar = ({handleUserIconClick,handleLocationIconClick }) => {
 
     const handlePhoneIconClick = () => {
         window.location.href = 'tel:+48602467698';
-    };
-
-    const handleLocationIconClick = () => {
-        if (mapRef && mapRef.current) {
-            mapRef.current.scrollIntoView({ behavior: 'smooth' });
-        }
-    };
-    const handleUserIconClick = () => {
-        if (aboutUsRef && aboutUsRef.current) {
-            aboutUsRef.current.scrollIntoView({ behavior: 'smooth' });
-        }
     };
 
     return (

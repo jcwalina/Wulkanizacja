@@ -14,9 +14,27 @@ export default function App() {
 
     const mapRef = useRef(null);
     const aboutUsRef = useRef(null);
+    const offerRef = useRef(null);
+
+    const handleLocationIconClick = () => {
+        if (mapRef && mapRef.current) {
+            mapRef.current.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+    const handleUserIconClick = () => {
+        if (aboutUsRef && aboutUsRef.current) {
+            aboutUsRef.current.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
+    const handleOfferClick = () => {
+        if (offerRef && offerRef.current) {
+            offerRef.current.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
 
     return <div>
-        <Navbar mapRef={mapRef} aboutUsRef={aboutUsRef} />
+        <Navbar handleLocationIconClick={handleLocationIconClick} handleUserIconClick={handleUserIconClick} />
         <div className="header center">
             <div className="titel">
                 Wulkanizacja
@@ -29,7 +47,7 @@ export default function App() {
 
 
         </div>
-        <div className="d-flex flex-column">
+        <div className="d-flex flex-column" ref={offerRef}>
             <div className="center uslugi title" >Usługi opon</div>
             <div className="d-flex justify-content-center " >
                 <div className="d-flex flex-row justify-content-evenly  flex-wrap" style={{ width: "100%", maxWidth:"1800px", fontWeight: "700"}}>
@@ -66,7 +84,7 @@ export default function App() {
                 </div>
             </div>
 
-            <div style={{ marginTop: "50px" }} className="center " ref={aboutUsRef}>
+            <div style={{ marginTop: "50px" }} className="center " >
 
                 <div className="title" >
                     Opony całoroczne czy sezonowe?
@@ -108,7 +126,7 @@ export default function App() {
     <div className="subtitle mt-5">***</div>
 </div>
 
-            <Footer/>
+            <Footer handleLocationIconClick={handleLocationIconClick} handleUserIconClick={handleUserIconClick} handleOfferClick={handleOfferClick}/>
         </div>
 
 

@@ -4,7 +4,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faHeart} from "@fortawesome/free-solid-svg-icons";
 import Logo from "./imgs/logo-footer.png"
 
-const Footer = () => {
+const Footer = ({handleUserIconClick,handleLocationIconClick, handleOfferClick }) => {
     return (
         <footer style={{background: "#15151594", marginTop: "50px"}} className=" text-light py-3">
             <Container>
@@ -26,9 +26,9 @@ const Footer = () => {
                         <h5 style={{ color: "rgb(254, 189, 91)" }}>Linki</h5>
                         <ul  className="list-unstyled">
                             <li><a href="/">Strona główna</a></li>
-                            <li><a href="/o-nas">O Nas</a></li>
-                            <li><a href="/produkty">Usługi</a></li>
-                            <li><a href="/kontakt">Kontakt</a></li>
+                            <li><a style={{ cursor: 'pointer' }}  onClick={handleUserIconClick}>O Nas</a></li>
+                            <li><a style={{ cursor: 'pointer' }} onClick={handleOfferClick} >Usługi</a></li>
+                            <li><a style={{ cursor: 'pointer' }} onClick={handleLocationIconClick}>Kontakt</a></li>
                         </ul>
                     </Col>
                     </Col>
