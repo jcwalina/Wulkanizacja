@@ -14,20 +14,20 @@ const Footer = () => {
                 <Row>
                     <Col className="center">
                         <Col  md={6}>
-                            <h5>Kontakt</h5>
-                            <p>Email: zbyszek175@vp.pl</p>
-                            <p>Telefon: +48 602 467 698</p>
-                            <p>Adres: Aleja Piłsudskiego 60, <br/> 18-400 Łomża</p>
+                            <h5 style={{ color: "rgb(254, 189, 91)" }} >Kontakt</h5>
+                            <p> <b>Email:</b> zbyszek175@vp.pl</p>
+                            <p><b>Telefon:</b> +48 602 467 698</p>
+                            <p><b>Adres:</b> Aleja Piłsudskiego 60, <br/> 18-400 Łomża</p>
                         </Col>
                     </Col>
 
                     <Col className="center">
                         <Col md={6}>
-                        <h5>Linki</h5>
+                        <h5 style={{ color: "rgb(254, 189, 91)" }}>Linki</h5>
                         <ul  className="list-unstyled">
                             <li><a href="/">Strona główna</a></li>
                             <li><a href="/o-nas">O Nas</a></li>
-                            <li><a href="/produkty">Produkty</a></li>
+                            <li><a href="/produkty">Usługi</a></li>
                             <li><a href="/kontakt">Kontakt</a></li>
                         </ul>
                     </Col>
