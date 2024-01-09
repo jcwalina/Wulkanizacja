@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Wulkanizacja/static/css/main.527edb7e.css",
+    "main.js": "/Wulkanizacja/static/js/main.17916003.js",
+    "static/media/background.jpg": "/Wulkanizacja/static/media/background.73cfa64e3a343cc0ba54.jpg",
+    "static/media/opona.png": "/Wulkanizacja/static/media/opona.6e11a41ad5c6b4614cdf.png",
+    "static/media/naprawa.png": "/Wulkanizacja/static/media/naprawa.8edf94d6f9c1dc94919e.png",
+    "static/media/wymiana.png": "/Wulkanizacja/static/media/wymiana.ab60637fd28f038d4f93.png",
+    "static/media/przechowywanie.png": "/Wulkanizacja/static/media/przechowywanie.979f631d076e0e475714.png",
+    "static/media/logo-footer.png": "/Wulkanizacja/static/media/logo-footer.6aed965f0b06a9d49f38.png",
+    "static/media/logo.png": "/Wulkanizacja/static/media/logo.c9bd8f6379c1166a577c.png",
+    "index.html": "/Wulkanizacja/index.html",
+    "main.527edb7e.css.map": "/Wulkanizacja/static/css/main.527edb7e.css.map",
+    "main.17916003.js.map": "/Wulkanizacja/static/js/main.17916003.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.527edb7e.css",
+    "static/js/main.17916003.js"
+  ]
+}
