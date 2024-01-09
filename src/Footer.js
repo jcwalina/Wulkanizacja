@@ -21,7 +21,7 @@ const Footer = ({handleUserIconClick,handleLocationIconClick, handleOfferClick }
                         </Col>
                     </Col>
 
-                    <Col className="center">
+                    <Col style={{ justifyContent: "flex-start"}} className="center">
                         <Col md={6}>
                         <h5 style={{ color: "rgb(254, 189, 91)" }}>Linki</h5>
                         <ul  className="list-unstyled">
