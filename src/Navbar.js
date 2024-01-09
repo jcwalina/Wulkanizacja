@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faPhone, faLocationDot, faUser, faClock, faUsers} from '@fortawesome/free-solid-svg-icons';
+import {faPhone, faLocationDot, faUsers} from '@fortawesome/free-solid-svg-icons';
 import logo from "./imgs/logo.png"
 
 const Navbar = ({handleUserIconClick,handleLocationIconClick }) => {

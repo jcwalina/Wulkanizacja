@@ -53,8 +53,6 @@ code {
   gap: 30px;
   margin-right: 50px;
   color: $orange;
-
-
 }
 
 .expand{
@@ -91,18 +89,21 @@ code {
     text-align: center;
     z-index: 2;
   }
+
+  @media (max-width: 768px) {
+    /* Adjust styles for screens with a maximum width of 768px (typical tablet and mobile screens) */
+    height: 70vh;
+
+    .titel {
+      font-size: 60px;
+    }
+
+    .subtitel {
+      font-size: 20px;
+    }
+  }
 }
 
-//.header:before {
-//  content: "";
-//  position: absolute;
-//  top: 0;
-//  right: 0;
-//  bottom: 0;
-//  left: 0;
-//  background: rgba(0, 0, 0, 0.59);
-//  z-index: -1;
-//}
 
 
 

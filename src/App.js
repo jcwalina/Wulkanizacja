@@ -35,6 +35,7 @@ export default function App() {
 
     return <div>
         <Navbar handleLocationIconClick={handleLocationIconClick} handleUserIconClick={handleUserIconClick} />
+
         <div className="header center">
             <div className="titel">
                 Wulkanizacja
@@ -123,7 +124,6 @@ export default function App() {
         </p>
     </div >
     < Map/>
-    <div className="subtitle mt-5">***</div>
 </div>
 
             <Footer handleLocationIconClick={handleLocationIconClick} handleUserIconClick={handleUserIconClick} handleOfferClick={handleOfferClick}/>
