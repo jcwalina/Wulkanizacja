@@ -89,10 +89,11 @@ code {
     font-size: 4vh;
     text-align: center;
     z-index: 2;
+    width: 80%;
   }
 
   @media (max-width: 768px) {
-    /* Adjust styles for screens with a maximum width of 768px (typical tablet and mobile screens) */
+
     height: 70vh;
 
     .titel {
@@ -104,8 +105,6 @@ code {
     }
   }
 }
-
-
 
 
 .uslugi{
@@ -124,10 +123,49 @@ img {
 }
 }
 
+.article{
+  width: 50%;
+}
 
 // footer
 
 .list-unstyled li a{
   color: white;
   text-decoration: none;
+}
+
+.map{
+  width: 90%;
+  max-width: 800px;
+}
+
+
+@media (max-width: 500px) {
+  .map{
+    width: 90%;
+  }
+
+  .article{
+    width: 85%;
+  }
+
+  .icons{
+    margin-right: 20px;
+  }
+
+  .expand{
+    &:hover {
+      transform: scale(1.0);
+    }
+  }
+
+}
+
+@media (max-width: 950px) {
+
+  .expand{
+    &:hover {
+      transform: scale(1.0);
+    }
+  }
 }

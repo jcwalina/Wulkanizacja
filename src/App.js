@@ -79,7 +79,7 @@ export default function App() {
                    O Nas
                </div>
 
-                <div style={{fontSize: "18px"}} className="subtitle w-50 m-3">
+                <div style={{fontSize: "18px"}} className="subtitle article m-3">
                     Wulkanizacja powstała we <b>wrześniu 2023</b> roku z pasji do motoryzacji i zobowiązania do świadczenia najwyższej jakości usług w zakresie wulkanizacji. Zrodziliśmy się z potrzeby - dostrzegliśmy duże zapotrzebowanie na wysoką jakość usług w naszym regionie. Nasza wszechstronność obejmuje wymianę opon w <b>samochodach osobowych i busach</b>. Wszystkie narzędzia i maszyny, których używamy do wymiany kół, są nowe i zostały zakupione we wrześniu 2023 roku.
                     Nasza wulkanizacja dysponuje bardzo dużym, <b>darmowym parkingiem</b>, zapewniając wygodę i swobodę podczas korzystania z naszych usług. Zapewniamy również wygodę w płatnościach, umożliwiając naszym klientom dokonywanie transakcji zarówno <b>kartą, jak i gotówką</b>.<br/> Dołącz do społeczności zadowolonych klientów, gdzie troszczymy się o Twoje bezpieczeństwo i komfort.
                 </div>
@@ -91,7 +91,7 @@ export default function App() {
                     Opony całoroczne czy sezonowe?
                 </div>
 
-                <div style={{fontSize: "18px"}} className="subtitle w-50 m-3">
+                <div style={{fontSize: "18px"}} className="subtitle article  m-3">
                     <b>Opony całoroczne</b> to świetne rozwiązanie dla kierowców, którzy nie chcą tracić czasu na sezonowe zmiany. W naszym regionie, gdzie zima bywa kapryśna, mogą być one szczególnie praktyczne. Oferują one solidną przyczepność w zróżnicowanych warunkach pogodowych, zarówno podczas śniegu, deszczu, jak i na suchej nawierzchni.
 <br/><br/>
                     <b>Opony sezonowe</b> są dedykowane konkretnym warunkom atmosferycznym. W okresie zimowym gwarantują lepszą przyczepność na zaśnieżonych drogach, podczas gdy opony letnie zapewniają optymalną wydajność w cieplejszych warunkach.
@@ -123,7 +123,11 @@ export default function App() {
             Sob. 8:00 - 12:00
         </p>
     </div >
-    < Map/>
+
+    <div className="map">
+        < Map/>
+    </div>
+
 </div>
 
             <Footer handleLocationIconClick={handleLocationIconClick} handleUserIconClick={handleUserIconClick} handleOfferClick={handleOfferClick}/>

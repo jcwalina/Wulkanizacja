@@ -3,8 +3,6 @@ import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 
 const Map = () => {
     const mapContainerStyle = {
-        width: '50%',
-        maxWidth: '800px',
         height: '400px',
         margin: "20px 0"
     };
