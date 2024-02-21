@@ -12,8 +12,10 @@ const Map = () => {
         lng: 22.05683374158026, //  długość geograficzna
     };
 
+    const apiKey = process.env.REACT_APP_KEY;
+
     return (
-        <LoadScript googleMapsApiKey="AIzaSyDtQwn9gT6eU1pBWZ4CwEfWDBuf3v4fBiI">
+        <LoadScript googleMapsApiKey={apiKey}>
             <GoogleMap
                 mapContainerStyle={mapContainerStyle}
                 center={center}
