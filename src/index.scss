@@ -8,7 +8,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #00000A!important;
+  background-color: #00000A !important;
 }
 
 code {
@@ -29,7 +29,7 @@ code {
   text-align: center;
 }
 
-.center{
+.center {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -56,35 +56,40 @@ code {
   color: $orange;
 }
 
-.expand{
+.expand {
   transition: transform 0.3s ease-in-out;
+
   &:hover {
     transform: scale(1.2);
   }
 }
-.header{
+
+.header {
   position: relative;
   background: url("imgs/background.jpg") center/cover no-repeat;
   height: 80vh;
 
   &::before {
-    content: ""; /* Required for the pseudo-element to generate */
+    content: "";
+    /* Required for the pseudo-element to generate */
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.71); /* Adjust the alpha channel (last value) for darkness */
-    z-index: 1; /* Ensure the overlay is behind other content */
+    background-color: rgba(0, 0, 0, 0.71);
+    /* Adjust the alpha channel (last value) for darkness */
+    z-index: 1;
+    /* Ensure the overlay is behind other content */
   }
 
-  .titel{
+  .titel {
     color: white;
     font-size: 11vh;
     z-index: 2;
   }
 
-  .subtitel{
+  .subtitel {
     color: $orange;
     font-size: 4vh;
     text-align: center;
@@ -107,53 +112,50 @@ code {
 }
 
 
-.uslugi{
+.uslugi {
   margin: 50px 0;
 }
 
 .uslugi-details {
   display: flex;
 
-img {
-  display: flex;
-  flex-direction: column;
-  height: 240px;
-  margin-top: 30px;
+  img {
+    display: flex;
+    flex-direction: column;
+    height: 240px;
+    margin-top: 30px;
 
-}
+  }
 }
 
-.article{
+.article {
   width: 50%;
 }
 
 // footer
 
-.list-unstyled li a{
+.list-unstyled li a {
   color: white;
   text-decoration: none;
 }
 
-.map{
-  width: 90%;
-  max-width: 800px;
-}
+
 
 
 @media (max-width: 500px) {
-  .map{
+  .map {
     width: 90%;
   }
 
-  .article{
+  .article {
     width: 85%;
   }
 
-  .icons{
+  .icons {
     margin-right: 20px;
   }
 
-  .expand{
+  .expand {
     &:hover {
       transform: scale(1.0);
     }
@@ -163,7 +165,7 @@ img {
 
 @media (max-width: 950px) {
 
-  .expand{
+  .expand {
     &:hover {
       transform: scale(1.0);
     }
