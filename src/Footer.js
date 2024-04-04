@@ -26,9 +26,9 @@ const Footer = ({ handleUserIconClick, handleLocationIconClick, handleOfferClick
                             <h5 style={{ color: "rgb(254, 189, 91)" }}>Linki</h5>
                             <ul className="list-unstyled">
                                 <li><a href="/">Strona główna</a></li>
-                                <li><a href="/" style={{ cursor: 'pointer' }} onClick={handleUserIconClick}>O Nas</a></li>
-                                <li><a href="/" style={{ cursor: 'pointer' }} onClick={handleOfferClick} >Usługi</a></li>
-                                <li><a href="/" style={{ cursor: 'pointer' }} onClick={handleLocationIconClick}>Kontakt</a></li>
+                                <li><a style={{ cursor: 'pointer' }} onClick={handleUserIconClick}>O Nas</a></li>
+                                <li><a style={{ cursor: 'pointer' }} onClick={handleOfferClick} >Usługi</a></li>
+                                <li><a style={{ cursor: 'pointer' }} onClick={handleLocationIconClick}>Kontakt</a></li>
                             </ul>
                         </Col>
                     </Col>
