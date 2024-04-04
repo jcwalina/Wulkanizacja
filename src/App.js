@@ -126,7 +126,7 @@ export default function App() {
 
                 <div >
 
-                    <iframe style={{ border: "0", margin: "20px 0", width: "600px", height: "450px", maxWidth: "90vw" }} loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ32sKztszHkcRQChZLQkIQ18&key=AIzaSyDzwse-d7r1di1Cjo0sntEiuAeP6fLpp2k"></iframe>
+                    <iframe style={{ border: "0", marginTop: "20px", width: "600px", height: "450px", maxWidth: "90vw" }} loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ32sKztszHkcRQChZLQkIQ18&key=AIzaSyDzwse-d7r1di1Cjo0sntEiuAeP6fLpp2k"></iframe>
 
                     {/* < Map/> */}
                 </div>

@@ -134,10 +134,22 @@ code {
 
 // footer
 
-.list-unstyled li a {
-  color: white;
-  text-decoration: none;
+.list-unstyled li {
+  margin-bottom: 5px;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    font-weight: 600;
+  }
+
+
 }
+
+
 
 
 
@@ -170,4 +182,9 @@ code {
       transform: scale(1.0);
     }
   }
+
+  .footer-kontakt {
+    margin-left: 30px;
+  }
+
 }
